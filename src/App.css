@@ -1,0 +1,16 @@
+.welcome-prompt {
+  background-color: black;
+  background-image: url("./images/header-image-resumes.webp");
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-content: center;
+  text-align: end;
+}
+.welcome-text {
+  padding-right: 5vw;
+  color: cadetblue;
+}
+.welcome-btn {
+  margin: 5vh 5vw !important;
+  color: cadetblue !important;
+}
