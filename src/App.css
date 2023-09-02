@@ -10,7 +10,36 @@
   padding-right: 5vw;
   color: cadetblue;
 }
+.btn-color {
+  background-color: cadetblue !important;
+}
 .welcome-btn {
   margin: 5vh 5vw !important;
   color: cadetblue !important;
+}
+.template-options-container {
+  background-color: white;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.resume-view-container {
+  height: 100vh;
+  overflow: auto;
+  text-align: -webkit-center;
+}
+.resume-view-fab-button-bar {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+.data-form-text-field {
+  width: 100%;
+}
+.resume-editor-img-container {
+  width: 100%;
+  background-color: black;
+  aspect-ratio: 1;
+}
+.resume-editor-section {
+  border-bottom: double black;
 }

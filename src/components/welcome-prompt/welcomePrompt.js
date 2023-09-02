@@ -15,7 +15,7 @@ const WelcomePrompt = () => {
             <br />
             {"seekers"}
           </Typography>
-          <Link to="/resumes">
+          <Link to="/resume">
             <Button
               className="welcome-btn"
               variant="outlined"

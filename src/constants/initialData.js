@@ -1,6 +1,5 @@
 export const INITIAL_RESUME_DATA = {
-  firstName: "",
-  lastName: "",
+  name: "",
   occupation: "",
   about: "",
   image: "",
@@ -9,7 +8,7 @@ export const INITIAL_RESUME_DATA = {
   address: "",
   education: [],
   experience: [],
-  skills: [],
+  skills: ["React", "JavaScript", "GIT"],
   achievements: [],
   languages: [],
   interests: [],

@@ -1,13 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import WelcomePrompt from "../components/welcome-prompt/welcomePrompt";
-import ResumeList from "../components/all-resume-list/resumeList";
+import MainContainer from "../components/main-container/mainContainer";
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route exact path="/" element={<WelcomePrompt />} />
-      <Route exact path="/resumes" element={<ResumeList />} />
+      <Route exact path="/resume" element={<MainContainer />} />
     </Routes>
   );
 };
